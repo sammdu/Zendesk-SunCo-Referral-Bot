@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Referral Demo</title>
+        <style>
+            @import url("https://rsms.me/inter/inter.css");
+            html {
+                font-family: "Inter", "SF Pro", sans-serif;
+                background-color: #03363d;
+                color: #fafafa;
+                width: 100%;
+            }
+            @supports (font-variation-settings: normal) {
+                html {
+                    font-family: "Inter var", sans-serif;
+                }
+            }
+
+            main {
+                box-sizing: border-box;
+                background-color: #ece0ce;
+                color: #03363d;
+                width: 55rem;
+                max-width: 90%;
+                min-height: 4rem;
+                margin: 4rem auto;
+                padding: 2rem;
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                column-gap: 2rem;
+            }
+
+            h1 {
+                margin: 0;
+                padding: 0;
+                line-height: 1;
+            }
+
+            img.logo-telegram {
+                width: 4rem;
+                flex-shrink: 0;
+                height: auto;
+                margin-left: -0.5rem;
+            }
+
+            a {
+                color: #30aabc;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            a.referral-link {
+                display: inline-block;
+                word-break: break-all;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <img
+                src="https://core.telegram.org/img/website_icon.svg"
+                alt="Logo"
+                class="logo-telegram"
+            />
+            <h1>
+                <a
+                    href="https://t.me/sunco_sd_bot?start=Referral"
+                    target="_blank"
+                    class="referral-link"
+                    >https://t.me/sunco_sd_bot?start=Referral</a
+                >
+            </h1>
+        </main>
+    </body>
+</html>
